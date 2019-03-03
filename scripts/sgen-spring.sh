@@ -13,4 +13,4 @@ while [ -h "$PRG" ] ; do
 done
 
 dir=$(dirname "$PRG")
-`npm bin`/sgen -m $dir/../templates/map.json $*
+`npm bin`/sgen-pom -m $dir/../templates/map.json $*

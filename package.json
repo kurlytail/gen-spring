@@ -3,6 +3,7 @@
     "description": "SPRING project generator",
     "version": "0.0.1",
     "devDependencies": {
+        "@kurlytail/gen-sgen": "0.0.63",
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.0.1",
@@ -57,7 +58,8 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-lib": "^0.0.64"
+        "@kurlytail/gen-lib": "0.0.69",
+        "@kurlytail/gen-pom": "^0.0.68"
     },
     "bin": {
         "sgen-spring": "scripts/sgen-spring.sh"

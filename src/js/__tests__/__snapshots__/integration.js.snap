@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`# integration test ## should generate design 1`] = `
+"info: loading map templates/map.json
+info: Initializing git repository testoutput/.git
+error: ENOENT: no such file or directory, open 'templates/.prettierrc._' {\\"errno\\":-2,\\"syscall\\":\\"open\\",\\"code\\":\\"ENOENT\\",\\"path\\":\\"templates/.prettierrc._\\"}
+warn: Attempting to cleanup on error
+info: sgen is done
+"
+`;
+
+exports[`# integration test ## should generate design and run spring commands 1`] = `
+"info: loading map templates/map.json
+info: Initializing git repository testoutput/.git
+error: ENOENT: no such file or directory, open 'templates/.prettierrc._' {\\"errno\\":-2,\\"syscall\\":\\"open\\",\\"code\\":\\"ENOENT\\",\\"path\\":\\"templates/.prettierrc._\\"}
+warn: Attempting to cleanup on error
+info: sgen is done
+"
+`;
+
+exports[`# integration test ## should generate design with merge 1`] = `
+"info: loading map templates/map.json
+info: Initializing git repository testoutput/.git
+error: ENOENT: no such file or directory, open 'templates/.prettierrc._' {\\"errno\\":-2,\\"syscall\\":\\"open\\",\\"code\\":\\"ENOENT\\",\\"path\\":\\"templates/.prettierrc._\\"}
+warn: Attempting to cleanup on error
+info: sgen is done
+"
+`;
+
+exports[`# integration test ## should generate design with merge 2`] = `
+"info: loading map templates/map.json
+info: Opening git repository testoutput/.git
+error: ENOENT: no such file or directory, open 'templates/.prettierrc._' {\\"errno\\":-2,\\"syscall\\":\\"open\\",\\"code\\":\\"ENOENT\\",\\"path\\":\\"templates/.prettierrc._\\"}
+warn: Attempting to cleanup on error
+info: sgen is done
+"
+`;
+
+exports[`# integration test ## should print help options 1`] = `
+"Usage:
+  node sgen [OPTION]
+
+Options:
+  -m, --map=ARG+       mapping files
+  -d, --design=ARG+    design files
+  -e, --extension=ARG+ extension directories or files
+  -o, --output=ARG     output directory for generated files
+      --overwrite=ARG  Overwrite modes, can be one of skip, regen, error                                  (default: error)
+      --forceOverwrite Override overwrite flags in the generator map with the one provided on --overwrite
+  -h, --help           display this help
+"
+`;
