@@ -3,7 +3,7 @@
     "description": "SPRING project generator",
     "version": "0.0.1",
     "devDependencies": {
-        "@kurlytail/gen-sgen": "0.0.63",
+        "@kurlytail/gen-sgen": "0.0.65",
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.0.1",
@@ -59,7 +59,7 @@
     },
     "dependencies": {
         "@kurlytail/gen-lib": "0.0.69",
-        "@kurlytail/gen-pom": "^0.0.68"
+        "@kurlytail/gen-pom": "^0.0.70"
     },
     "bin": {
         "sgen-spring": "scripts/sgen-spring.sh"
