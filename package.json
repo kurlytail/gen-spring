@@ -1,0 +1,65 @@
+{
+    "name": "@kurlytail/gen-spring",
+    "description": "SPRING project generator",
+    "version": "0.0.1",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.0",
+        "babel-eslint": "^8.0.1",
+        "babel-jest": "^23.6.0",
+        "babel-loader": "^7.1.2",
+        "babel-plugin-module-resolver": "^3.1.1",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-env": "^1.6.1",
+        "babel-register": "^6.26.0",
+        "child_process": "^1.0.2",
+        "eslint": "^4.19.1",
+        "eslint-config-prettier": "^2.6.0",
+        "eslint-import-resolver-babel-module": "^4.0.0",
+        "eslint-loader": "^1.9.0",
+        "eslint-plugin-babel": "^4.1.2",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jest": "^22.1.2",
+        "eslint-plugin-prettier": "^2.3.1",
+        "jest": "^23.6.0",
+        "jest-junit-reporter": "^1.1.0",
+        "jsdoc": "^3.5.5",
+        "prettier": "^1.16.0"
+    },
+    "license": "UNLICENSED",
+    "jest": {
+        "testResultsProcessor": "./node_modules/jest-junit-reporter",
+        "moduleDirectories": [
+            "node_modules",
+            "./src/js"
+        ],
+        "collectCoverage": true,
+        "coverageReporters": [
+            "text",
+            "html"
+        ],
+        "collectCoverageFrom": [
+            "src/js/**/*.js",
+            "!**/node_modules/**"
+        ],
+        "testPathIgnorePatterns": [
+            "testoutput",
+            ".generated"
+        ]
+    },
+    "scripts": {
+        "docs": "jsdoc -c jsdoc.json && npx opn-cli ./docs/index.html",
+        "lint": "eslint src",
+        "test": "jest tests",
+        "test:watch": "jest --watch tests",
+        "test:ci": "jest --ci tests",
+        "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
+    },
+    "dependencies": {
+        "@kurlytail/gen-lib": "^0.0.64"
+    },
+    "bin": {
+        "sgen-spring": "scripts/sgen-spring.sh"
+    }
+}

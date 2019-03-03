@@ -1,0 +1,5 @@
+{
+    ".prettierrc": {
+        "template": ".prettierrc._"
+    }
+}
