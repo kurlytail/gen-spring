@@ -1,13 +1,13 @@
 {
     "presets": [
         [
-            "env",
+            "@babel/preset-env",
             {
                 "targets": {
                     "node": "current"
                 }
             }
-        ]
-    ],
-    "plugins": ["transform-class-properties", "transform-object-rest-spread"]
+        ],
+        "@babel/preset-flow"
+    ]
 }
