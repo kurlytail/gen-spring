@@ -1,0 +1,25 @@
+{
+    ".prettierrc": { "template": "node_modules/@kurlytail/gen-log/templates/.prettierrc._" },
+    ".babelrc": { "template": "node_modules/@kurlytail/gen-sgen/templates/.babelrc._" },
+    ".editorconfig": { "template": "node_modules/@kurlytail/gen-sgen/templates/.editorconfig._" },
+    ".eslintignore": { "template": "node_modules/@kurlytail/gen-sgen/templates/.eslintignore._" },
+    ".eslintrc.js": { "template": "node_modules/@kurlytail/gen-sgen/templates/.eslintrc.js._" },
+    ".gitignore": { "template": "node_modules/@kurlytail/gen-sgen/templates/.gitignore._" },
+    ".npmignore": { "template": "node_modules/@kurlytail/gen-sgen/templates/.npmignore._" },
+    "Jenkinsfile": { "template": "node_modules/@kurlytail/gen-sgen/templates/Jenkinsfile._" },
+    "package.json": { "template": "node_modules/@kurlytail/gen-sgen/templates/package.json._" },
+    "README.md": { "template": "node_modules/@kurlytail/gen-sgen/templates/README.md._" },
+    "src/js/__tests__/integration.js": {
+        "template": "node_modules/@kurlytail/gen-sgen/templates/src/js/__tests__/integration.js._"
+    },
+    "src/test/fixture/design.json": {
+        "template": "node_modules/@kurlytail/gen-sgen/templates/src/test/fixture/design.json._"
+    },
+    "templates/map.json": { "template": "node_modules/@kurlytail/gen-sgen/templates/templates/map.json._" },
+    "templates/.prettierrc._": { "template": "node_modules/@kurlytail/gen-sgen/templates/templates/.prettierrc._" },
+    ".flowconfig": { "template": "node_modules/@kurlytail/gen-sgen/templates/.flowconfig._" },
+    "webpack.config.js": { "template": "node_modules/@kurlytail/gen-sgen/templates/webpack.config.js._" },
+    "src/js/index.js": { "template": "node_modules/@kurlytail/gen-sgen/templates/src/js/index.js._" },
+    "logs/map.json": { "template": "node_modules/@kurlytail/gen-log/templates/logs/map.json._" },
+    "logs/options.json": { "template": "node_modules/@kurlytail/gen-log/templates/logs/options.json._" }
+}
