@@ -3,9 +3,9 @@
 pipeline {
     agent none
 
-    //triggers {
-    //    upstream(upstreamProjects: 'kurlytail/gen-lib/master', threshold: hudson.model.Result.SUCCESS)
-    //}
+    triggers {
+        upstream(upstreamProjects: 'kurlytail/gen-lib/master', threshold: hudson.model.Result.SUCCESS)
+    }
 
     parameters {
         string(defaultValue: "1.2", description: 'Build version prefix', name: 'BUILD_VERSION_PREFIX')
