@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`# integration test ## should generate design and run spring commands 1`] = `
-"info: Loaded generator @kurlytail/gen-pom@1.2.23
+"info: Loaded generator @kurlytail/gen-pom@1.3.3
 
 info: loading map node_modules/@kurlytail/gen-pom/templates/map.json
 info: Initializing git repository testoutput/.git
@@ -46,19 +46,5 @@ info: Creating new branch master-sgen-generated
 warn: Checkout branch master
 warn: Checkout branch master
 info: sgen is done
-"
-`;
-
-exports[`# integration test ## should print help options 1`] = `
-"Usage:
-  node sgen [OPTION]
-
-Options:
-  -m, --map=ARG+       mapping files
-  -d, --design=ARG+    design files
-  -e, --extension=ARG+ extension directories or files
-  -o, --output=ARG     output directory for generated files
-  -g, --generator=ARG+ generators to be used
-  -h, --help           display this help
 "
 `;
