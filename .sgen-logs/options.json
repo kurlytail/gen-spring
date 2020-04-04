@@ -1,0 +1,13 @@
+{
+    "design": ["design.json"],
+    "map": [
+        "node_modules/@kurlytail/gen-sgen/templates/map.json",
+        "node_modules/@kurlytail/gen-log/templates/map.json",
+        "node_modules/@kurlytail/gen-bst/templates/map.json"
+    ],
+    "extension": [],
+    "generator": ["sgen", "log", "bst"],
+    "options": [],
+    "g": ["sgen", "log", "bst"],
+    "d": ["design.json"]
+}
