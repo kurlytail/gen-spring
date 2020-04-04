@@ -1,7 +1,7 @@
 {
     "name": "@kurlytail/gen-spring",
     "description": "SPRING project generator",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "dist/spring.min.js",
     "devDependencies": {
         "@babel/cli": "^7.2.3",
