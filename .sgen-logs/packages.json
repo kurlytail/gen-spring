@@ -1,0 +1,18 @@
+{
+    "lib": { "packageName": "@kurlytail/gen-lib", "version": "1.3.92" },
+    "sgen": {
+        "version": "1.3.95",
+        "map": ["node_modules/@kurlytail/gen-sgen/templates/map.json"],
+        "packageName": "@kurlytail/gen-sgen"
+    },
+    "log": {
+        "version": "1.3.135",
+        "map": ["node_modules/@kurlytail/gen-log/templates/map.json"],
+        "packageName": "@kurlytail/gen-log"
+    },
+    "bst": {
+        "version": "1.3.118",
+        "map": ["node_modules/@kurlytail/gen-bst/templates/map.json"],
+        "packageName": "@kurlytail/gen-bst"
+    }
+}

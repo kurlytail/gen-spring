@@ -56,7 +56,11 @@ pipeline {
                         reportName: 'Coverage Report'
                     ]
                     sh 'npm run build'
-                    sh 'npm publish'
+                    script {
+                        if (env['BUILDING_QA_CANDIDATE'] != 'false') {
+                            sh 'npm publish'
+                        }
+                    }
                     sh 'mkdir __npm_versions'
                     sh 'npm outdated > __npm_versions/index.html || true'
                     publishHTML target: [
