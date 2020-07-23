@@ -70,7 +70,7 @@
         "clean": "rimraf ./docs ./dist ./coverage test-report.xml"
     },
     "dependencies": {
-        "@kurlytail/gen-bst": "1.3.174",
+        "@kurlytail/gen-bst": "1.3.176",
         "@kurlytail/gen-lib": "1.3.92",
         "@kurlytail/gen-log": "1.3.149",
         "@kurlytail/gen-sgen": "1.3.105",
