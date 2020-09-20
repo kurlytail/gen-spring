@@ -30,7 +30,7 @@
         "flow-bin": "0.134.0",
         "jest": "26.4.2",
         "jest-junit-reporter": "1.1.0",
-        "jsdoc": "3.6.5",
+        "jsdoc": "3.6.6",
         "prettier": "2.1.2",
         "source-map-loader": "1.1.0",
         "uglifyjs-webpack-plugin": "2.2.0",
