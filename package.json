@@ -74,7 +74,7 @@
         "@kurlytail/gen-lib": "1.3.92",
         "@kurlytail/gen-log": "1.3.149",
         "@kurlytail/gen-sgen": "1.3.105",
-        "@kurlytail/gen-pom": "1.3.3",
+        "@kurlytail/gen-pom": "1.3.179",
         "yaml": "1.10.0"
     }
 }
